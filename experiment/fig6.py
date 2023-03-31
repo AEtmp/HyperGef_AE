@@ -9,7 +9,7 @@ for dname in data_name:
     for nhid in feature_list:
         for backend in backend_list:
             for model in model_list:
-                cmd = f"python ../HyperGsys/hgsys.py --dname {dname} --nhid {nhid} --backend {backend} --model {model} --data-path ../HyperGsys/data"
+                cmd = f"python ../HyperGsys/hgsys.py --dname {dname} --nhid {nhid} --backend {backend} --model {model} --data-path ../HyperGsys/data --output fig6.csv"
                 print(cmd)
                 os.system(cmd)
 
