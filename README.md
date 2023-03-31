@@ -5,7 +5,7 @@ By kernel fusion and workload balance, our backend can bring significant speedup
 
 ### Requirement
 ```
-cuda >= 11.0
+cuda >= 11.6
 torch >= 1.11
 dgl >= 0.9
 pyg >= 2.1
