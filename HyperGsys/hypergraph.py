@@ -87,7 +87,6 @@ class HyperGraph:
         self.g2 = g2.to(self.device)
 
     def balance(self, ngs, H_T_csrptr):
-        ngs = 100
         bs = balance_schedule(ngs, H_T_csrptr)
         # for i in range(100):
         #     print(f"balan: {bs.balan_row[i]}, group_st: {bs.group_st[i]}, group_ed: {bs.group_ed[i]}")
